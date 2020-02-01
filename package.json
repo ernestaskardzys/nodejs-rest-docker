@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-rest-docker",
+  "version": "1.0.0",
+  "description": "Simple NodeJS rest service",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ernestaskardzys/nodejs-rest-docker.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "rest"
+  ],
+  "author": "Ernestas Kardzys <ernestas.kardzys@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
